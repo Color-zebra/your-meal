@@ -46,7 +46,7 @@ ul {
 
 h1, h2, h3, p, figure {
     margin: 0;
-    line-height: 0;
+    line-height: 1;
 }
 
 iframe {
@@ -68,6 +68,10 @@ fieldset {
     max-width: calc(var(--container) + var(--padding-container) * 2);
     padding: 0 var(--padding-container);
     margin: 0 auto;
+}
+
+.currency {
+    font-weight: 400;
 }
 
 @media (min-width: 480px) {
